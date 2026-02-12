@@ -1,0 +1,133 @@
+/* CSS Variables for Theme Support */
+:root[data-theme="light"] {
+  --primary-color: #FF6B9D;
+  --secondary-color: #4ECDC4;
+  --accent-color: #FFE66D;
+  --tertiary-color: #A8E6CF;
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8F9FA;
+  --bg-gradient-start: #FFF5F8;
+  --bg-gradient-end: #E8F8F5;
+  --text-primary: #2C3E50;
+  --text-secondary: #5A6C7D;
+  --card-bg: #FFFFFF;
+  --detail-bg: #F0F8FF;
+  --detail-bg-hover: #E1F0FF;
+}
+
+:root[data-theme="dark"] {
+  --primary-color: #FF6B9D;
+  --secondary-color: #4ECDC4;
+  --accent-color: #FFE66D;
+  --tertiary-color: #A8E6CF;
+  --bg-primary: #1A1A2E;
+  --bg-secondary: #16213E;
+  --bg-gradient-start: #1A1A2E;
+  --bg-gradient-end: #0F3460;
+  --text-primary: #EAEAEA;
+  --text-secondary: #B8B8B8;
+  --card-bg: #16213E;
+  --detail-bg: #0F3460;
+  --detail-bg-hover: #1A4A6F;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* Selection Styling */
+::selection {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Focus Styles for Accessibility */
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .logo {
+  flex-direction: row-reverse;
+}
+
+/* Accessibility - Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

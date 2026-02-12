@@ -1,0 +1,20 @@
+{
+  "appName": "Gaza Children Cinema",
+  "welcome": "Welcome to Gaza Children Cinema",
+  "description": "A magical place for children to explore wonderful characters and stories",
+  "characters": "Characters",
+  "about": "About",
+  "language": "Language",
+  "theme": "Theme",
+  "light": "Light",
+  "dark": "Dark",
+  "characterGallery": "Character Gallery",
+  "meetCharacters": "Meet Our Amazing Characters!",
+  "learnMore": "Learn More",
+  "age": "Age",
+  "personality": "Personality",
+  "favoriteActivity": "Favorite Activity",
+  "importData": "Import Character Data",
+  "importDescription": "You can import character data from gazachildrencinema.org by preparing a JSON file with character information.",
+  "sampleData": "Using sample character data for demonstration"
+}
