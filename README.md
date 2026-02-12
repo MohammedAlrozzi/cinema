@@ -1,15 +1,18 @@
 # Gaza Children Cinema 🎬
 
-A vibrant, bilingual children's cinema website built with React, TypeScript, and Vite. This website showcases colorful characters and stories in a playful, child-friendly interface.
+A vibrant, bilingual cinema organization website built with React, TypeScript, and Vite. This website showcases our community-based, volunteer-driven initiative bringing cinema education and creative learning resources to children.
 
 ## ✨ Features
 
-- 🌈 **Colorful & Playful Design**: Vibrant colors and animations specifically designed for children
+- 🎥 **About Us**: Information about our cinema initiative and mission
+- 🌱 **Journey Timeline**: Interactive timeline showcasing the phases of our cinema initiative
+- 📝 **Blog Section**: Stories and insights from our community experiences
+- 📚 **Learning Resources**: Comprehensive library of video, audio, and document resources
+- 🤝 **Community Focus**: Highlighting our volunteer-driven, community-based nature
 - 🌍 **Bilingual Support**: Full support for English and Arabic (with RTL layout)
 - 🌓 **Dark & Light Mode**: Theme switching for comfortable viewing
 - 📱 **Fully Responsive**: Works seamlessly on all devices
 - ⚡ **Fast & Modern**: Built with Vite and React 19
-- 🎨 **Character Gallery**: Showcases diverse, engaging characters
 - ♿ **Accessible**: Built with accessibility best practices
 
 ## 🚀 Tech Stack
@@ -29,13 +32,13 @@ cinema/
 │   ├── components/          # React components
 │   │   ├── Header.tsx      # Navigation and controls
 │   │   ├── Hero.tsx        # Hero section
-│   │   ├── CharacterCard.tsx
-│   │   ├── CharacterGallery.tsx
+│   │   ├── AboutUs.tsx     # About our initiative
+│   │   ├── Journey.tsx     # Timeline of phases
+│   │   ├── Blog.tsx        # Blog posts
+│   │   ├── Resources.tsx   # Learning resources library
 │   │   └── Footer.tsx
 │   ├── contexts/           # React contexts
 │   │   └── ThemeContext.tsx
-│   ├── data/              # Data files
-│   │   └── characters.ts   # Character data
 │   ├── i18n/              # Internationalization
 │   │   ├── config.ts
 │   │   └── locales/
@@ -97,33 +100,19 @@ npm install -g vercel
 vercel
 ```
 
-## 🎨 Character Data
+## 🎥 About the Initiative
 
-The website currently uses sample character data. To import data from gazachildrencinema.org:
+This website represents a community-based, volunteer-driven cinema initiative dedicated to:
+- Bringing cinema education to children
+- Creating a space for shared learning and creativity
+- Building community through film and storytelling
+- Providing comprehensive learning resources
 
-1. Prepare a JSON file with the following structure:
-```json
-{
-  "characters": [
-    {
-      "id": 1,
-      "name": "Character Name",
-      "nameAr": "اسم الشخصية",
-      "age": 8,
-      "personality": "Trait",
-      "personalityAr": "سمة",
-      "favoriteActivity": "Activity",
-      "favoriteActivityAr": "نشاط",
-      "color": "#FF6B9D",
-      "emoji": "🎨",
-      "description": "Description",
-      "descriptionAr": "وصف"
-    }
-  ]
-}
-```
-
-2. Update the `src/data/characters.ts` file with your data.
+The website includes:
+- **About Section**: Information about our mission and community-based approach
+- **Journey Timeline**: The history and phases of our cinema initiative
+- **Blog**: Stories and insights from our volunteers and community
+- **Resources**: Educational materials including video tutorials, audio content, and documents
 
 ## 🌐 Internationalization
 
@@ -162,7 +151,7 @@ This project is open source and available under the MIT License.
 
 ## 💖 Acknowledgments
 
-Built with love for the children of Gaza and children everywhere. This website aims to bring joy, education, and entertainment to young minds through colorful characters and engaging stories.
+This website represents our commitment to cinema education and community building. We are dedicated to inspiring children through the power of film and storytelling, powered by volunteers and supported by the community.
 
 ---
 
