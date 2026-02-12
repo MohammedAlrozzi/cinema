@@ -11,17 +11,17 @@ const Hero: React.FC = () => {
         <h2 className="hero-title">{t('welcome')}</h2>
         <p className="hero-description">{t('description')}</p>
         <div className="hero-emojis">
-          <span className="hero-emoji">🌟</span>
-          <span className="hero-emoji">🎭</span>
-          <span className="hero-emoji">🎨</span>
-          <span className="hero-emoji">🎪</span>
           <span className="hero-emoji">🎬</span>
+          <span className="hero-emoji">🤝</span>
+          <span className="hero-emoji">💝</span>
+          <span className="hero-emoji">📚</span>
+          <span className="hero-emoji">🌟</span>
         </div>
         <button 
           className="hero-btn"
-          onClick={() => document.getElementById('characters')?.scrollIntoView({ behavior: 'smooth' })}
+          onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
         >
-          {t('meetCharacters')} ✨
+          {t('exploreMore')} ✨
         </button>
       </div>
       <div className="hero-background">

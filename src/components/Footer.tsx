@@ -6,25 +6,24 @@ const Footer: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <footer id="about" className="footer">
+    <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
           <h3 className="footer-title">
             <span className="footer-emoji">🎬</span>
             {t('appName')}
           </h3>
-          <p className="footer-description">{t('description')}</p>
+          <p className="footer-description">{t('footerDesc')}</p>
         </div>
 
         <div className="footer-section">
-          <h4 className="section-title">{t('importData')}</h4>
-          <p className="section-text">{t('importDescription')}</p>
-          <p className="section-note">💡 {t('sampleData')}</p>
+          <h4 className="section-title">{t('getInvolved')}</h4>
+          <p className="section-text">{t('getInvolvedText')}</p>
         </div>
 
         <div className="footer-bottom">
           <p className="copyright">
-            © 2024 Gaza Children Cinema. Made with ❤️ for children everywhere.
+            {t('copyright')}
           </p>
         </div>
       </div>
