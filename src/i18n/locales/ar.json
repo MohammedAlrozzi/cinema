@@ -1,0 +1,20 @@
+{
+  "appName": "سينما أطفال غزة",
+  "welcome": "أهلاً بكم في سينما أطفال غزة",
+  "description": "مكان سحري للأطفال لاستكشاف الشخصيات والقصص الرائعة",
+  "characters": "الشخصيات",
+  "about": "عن السينما",
+  "language": "اللغة",
+  "theme": "المظهر",
+  "light": "فاتح",
+  "dark": "داكن",
+  "characterGallery": "معرض الشخصيات",
+  "meetCharacters": "تعرف على شخصياتنا المذهلة!",
+  "learnMore": "اعرف المزيد",
+  "age": "العمر",
+  "personality": "الشخصية",
+  "favoriteActivity": "النشاط المفضل",
+  "importData": "استيراد بيانات الشخصيات",
+  "importDescription": "يمكنك استيراد بيانات الشخصيات من gazachildrencinema.org من خلال إعداد ملف JSON يحتوي على معلومات الشخصية.",
+  "sampleData": "استخدام بيانات شخصيات تجريبية للعرض"
+}
