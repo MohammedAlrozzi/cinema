@@ -24,8 +24,10 @@ const Header: React.FC = () => {
         </div>
         
         <nav className="nav">
-          <a href="#characters" className="nav-link">{t('characters')}</a>
           <a href="#about" className="nav-link">{t('about')}</a>
+          <a href="#journey" className="nav-link">{t('journey')}</a>
+          <a href="#blog" className="nav-link">{t('blog')}</a>
+          <a href="#resources" className="nav-link">{t('resources')}</a>
         </nav>
 
         <div className="controls">
